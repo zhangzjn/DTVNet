@@ -1,0 +1,37 @@
+1. We collect over 1000 long timelapse videos from Youtube. We manually cut out the short videos with sky scenes from each long video.
+	Each short video contains multiple frames( from 2 frames to over 100 frames), each frame is a 640 * 360 resolution RGB image. 
+
+
+
+2. This folder contains the following folder and files:
+
+./sky_train: training data of SkyScene. 
+	contains 997 long timelapse videos, which are cut into 2392 short videos. 
+	if we divide the short videos into clips of 32 frames, we can get 35383 video clips. 
+
+./sky_test: test data of SkyScene. 
+	contains 111 long timelapse videos, which are cut into 225 short videos. 
+	note that the long videos in the test dataset have no overlap with the long videos in the training dataset.  
+	if we divide the short videos into clips of 32 frames, we can get 2815 video clips. 
+
+./video_folder.py: Folder class to get video clips from the dataset.
+
+./test_videofolder.py: a simple pytorch script to use video_folder class and load data.
+
+
+
+3. if you have any questions, please contact: 
+
+	Wei Xiong (wei.xiong@rochester.edu)
+
+
+
+4. if you use our dataset, please cite our paper:
+
+@InProceedings{Xiong_2018_CVPR,
+author = {Xiong, Wei and Luo, Wenhan and Ma, Lin and Liu, Wei and Luo, Jiebo},
+title = {Learning to Generate Time-Lapse Videos Using Multi-Stage Dynamic Generative Adversarial Networks},
+booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2018}
+}

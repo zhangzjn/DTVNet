@@ -1,0 +1,77 @@
+{
+  "data": {
+    "type": "sky_timelapse",
+    "root": "data/sky_timelapse/",
+    "split_train": "sky_train",
+    "split_valid": "sky_test",
+    "split_test": "sky_test",
+    "nframes": 32,
+    "flow_type": "Flow"},
+
+  "data_aug": {
+    "resize": true,
+    "imageSize": 128},
+
+  "loss": {
+    "RGB_L1": true,
+    "Flow_L1": true,
+    "L1": true,
+    "gan": true,
+    "gan_mode": "lsgan",
+    "lambda_L1_RGB": 100,
+    "lambda_L1_Flow": 1,
+    "lambda_L1_Diff": 1,
+    "lambda_L1": 100,
+    "lambda_D": 0.5},
+
+ "model": {
+   "ndf": 32,
+   "ngf": 64,
+   "dlatent_size": 512,
+   "n_blocks": 9,
+   "use_2d": true,
+   "use_flow": true,
+   "type": "DTV",
+   "init_type": "normal",
+   "init_gain": 0.02},
+
+ "train": {
+   "seed": 0,
+   "name": "DTV_Sky",
+   "checkpoints": "checkpoints",
+   "isTrain": true,
+   "epochs": 1000,
+   "batch_size": 4,
+   "num_workers": 4,
+
+   "shuffle": true,
+   "drop_last": true,
+   "pin_memory": true,
+
+   "optim": "adam",
+   "lr": 3e-04,
+   "lr_DTV_G": 3e-04,
+   "lr_DTV_D": 3e-05,
+   "lr_gamma": 0.1,
+   "lr_policy": "linear",
+   "momentum": 0.9,
+   "beta": 0.999,
+   "eps": 1e-7,
+   "bias_decay": 0,
+   "weight_decay": 1e-06,
+   "niter": 100,
+   "niter_decay": 100,
+   "epoch_count": 1,
+
+   "device_ids": [0],
+   "load_epoch": 0,
+   "continueTrain": false,
+   "verbose": false,
+
+   "print_frep": 10,
+   "record_freq": 10,
+   "save_epoch": 5,
+   "test_epoch": 5},
+
+ "trainer": "sky_timelapse",
+ "save_root": ""}
