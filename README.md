@@ -21,7 +21,7 @@ pip3 install -r requirements.txt
 ### Datasets in the paper
 - Download [Sky Timeplase](https://drive.google.com/file/d/1xWLiU-MBGN7MrsFHQm4_yXmfHBsMbJQo/view?usp=drive_open) dataset to `data`. You can refer to [MDGAN](https://arxiv.org/pdf/1709.07592.pdf) and corresponding [code](https://github.com/weixiong-ur/mdgan) for more details about the dataset.
 - Download `example datasets and checkpoints` from 
-[Google Drive](https://drive.google.com/file/d/1xEnZwNLU4SmgFFh4WGV4KEOdegfFrOdp/view?usp=sharing) 
+[Google Drive](https://drive.google.com/file/d/1Mv3hr5Fkb3L13KP2Oh716x2f0vvLdfLB/view?usp=sharing) 
 or 
 [Baidu Cloud](https://pan.baidu.com/s/1gj31dZx5tp4s6OzH5K2Tnw) (Key:u6c0).
 
