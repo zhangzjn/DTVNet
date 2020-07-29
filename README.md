@@ -2,7 +2,7 @@
 
 ![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg?style=plastic) ![PyTorch 1.5.1](https://img.shields.io/badge/pytorch-1.5.1-green.svg?style=plastic) ![License MIT](https://img.shields.io/github/license/zhangzjn/APB2Face)
 
-Official pytorch implementation of the paper "[DTVNet: Dynamic Time-lapse Video Generation via Single Still Image, ECCV'20 (Spotlight)](https://openreview.net/forum?id=49rFxGCmfm)".
+Official pytorch implementation of the paper "[DTVNet: Dynamic Time-lapse Video Generation via Single Still Image, ECCV'20 (Spotlight)](https://openreview.net/forum?id=49rFxGCmfm)". The arxiv version will be released after filing the patent.
 
 For any inquiries, please contact Jiangning Zhang at [186368@zju.edu.cn](mailto:186368@zju.edu.cn)
 
@@ -10,7 +10,7 @@ For any inquiries, please contact Jiangning Zhang at [186368@zju.edu.cn](mailto:
 
 ### Requirements
 
-This code has been developed under `Python3.7`, `PyTorch 1.3.1` and `CUDA 10.1` on `Ubuntu 16.04`. 
+This code has been developed under `Python3.7`, `PyTorch 1.5.1` and `CUDA 10.1` on `Ubuntu 16.04`. 
 
 
 ```shell
