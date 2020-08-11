@@ -6,6 +6,10 @@ Official pytorch implementation of the paper "[DTVNet: Dynamic Time-lapse Video 
 
 For any inquiries, please contact Jiangning Zhang at [186368@zju.edu.cn](mailto:186368@zju.edu.cn)
 
+## Demo
+
+[![Demo](pictures/cover.jpg)](https://www.youtube.com/watch?v=SdZzy42ffEk)
+
 ## Using the Code
 
 ### Requirements
