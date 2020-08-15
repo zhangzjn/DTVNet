@@ -2,7 +2,7 @@
 
 ![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg?style=plastic) ![PyTorch 1.5.1](https://img.shields.io/badge/pytorch-1.5.1-green.svg?style=plastic) ![License MIT](https://img.shields.io/github/license/zhangzjn/APB2Face)
 
-Official pytorch implementation of the paper "[DTVNet: Dynamic Time-lapse Video Generation via Single Still Image, ECCV'20 (Spotlight)](https://openreview.net/forum?id=49rFxGCmfm)". The arxiv version will be released after filing the patent.
+Official pytorch implementation of the paper "[DTVNet: Dynamic Time-lapse Video Generation via Single Still Image, ECCV'20 (Spotlight)](https://arxiv.org/pdf/2008.04776.pdf)". The arxiv version will be released after filing the patent.
 
 For any inquiries, please contact Jiangning Zhang at [186368@zju.edu.cn](mailto:186368@zju.edu.cn)
 
@@ -66,7 +66,13 @@ or
    
 ### Citation
 
-TBA
-
+```shell
+@article{zhang2020dtvnet,
+  title={DTVNet: Dynamic Time-lapse Video Generation via Single Still Image},
+  author={Zhang, Jiangning and Xu, Chao and Liu, Liang and Wang, Mengmeng and Wu, Xia and Liu, Yong and Jiang, Yunliang},
+  journal={arXiv preprint arXiv:2008.04776},
+  year={2020}
+}
+```
 
 
