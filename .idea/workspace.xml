@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c456034-a775-46f6-a943-0957cbc9ce8f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flow/ARFlow" beforeDir="false" afterPath="$PROJECT_DIR$/flow/ARFlow" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flow/ARFlow/checkpoints/CityScapes/pwclite_ar.tar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/flow/ARFlow/checkpoints/KITTI12/pwclite_ar.tar" beforeDir="false" />
@@ -178,7 +178,8 @@
       <workItem from="1594817465694" duration="4661000" />
       <workItem from="1595154314651" duration="26000" />
       <workItem from="1597157359892" duration="1360000" />
-      <workItem from="1597304737170" duration="1588000" />
+      <workItem from="1597304737170" duration="1646000" />
+      <workItem from="1597490003873" duration="71000" />
     </task>
     <servers />
   </component>
@@ -189,10 +190,10 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="880" y="544" key="publish.login" timestamp="1597489817339">
+    <state x="880" y="544" key="publish.login" timestamp="1597490069987">
       <screen x="0" y="0" width="2000" height="1293" />
     </state>
-    <state x="880" y="544" key="publish.login/0.0.2000.1293@0.0.2000.1293" timestamp="1597489817339" />
+    <state x="880" y="544" key="publish.login/0.0.2000.1293@0.0.2000.1293" timestamp="1597490069987" />
     <state x="965" y="502" key="publish.login/0.0.2194.1194@0.0.2194.1194" timestamp="1597158101106" />
   </component>
   <component name="XDebuggerManager">
