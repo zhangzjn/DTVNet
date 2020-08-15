@@ -65,6 +65,7 @@ or
    ```
    
 ### Citation
+If our work is useful for your research, please consider citing:
 
 ```shell
 @article{zhang2020dtvnet,
