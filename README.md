@@ -68,11 +68,13 @@ or
 If our work is useful for your research, please consider citing:
 
 ```shell
-@article{zhang2020dtvnet,
-  title={DTVNet: Dynamic Time-lapse Video Generation via Single Still Image},
+@inproceedings{zhang2020dtvnet,
+  title={Dtvnet: Dynamic time-lapse video generation via single still image},
   author={Zhang, Jiangning and Xu, Chao and Liu, Liang and Wang, Mengmeng and Wu, Xia and Liu, Yong and Jiang, Yunliang},
-  journal={arXiv preprint arXiv:2008.04776},
-  year={2020}
+  booktitle={European Conference on Computer Vision},
+  pages={300--315},
+  year={2020},
+  organization={Springer}
 }
 ```
 
